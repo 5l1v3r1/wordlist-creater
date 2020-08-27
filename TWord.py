@@ -2,7 +2,7 @@
 #
 #  [Program]
 #
-#  CUPP
+#  WORD
 #  Common User Passwords Profiler
 #
 #  [Author]
@@ -157,7 +157,7 @@ def print_to_file(filename, unique_list_finished):
 
 def print_cow():
     print(" ___________ ")
-    print(" \033[07m  cupp.py! \033[27m                # \033[07mC\033[27mommon")
+    print(" \033[07m  Word.py! \033[27m                # \033[07mC\033[27mommon")
     print("      \                     # \033[07mU\033[27mser")
     print("       \   \033[1;31m,__,\033[1;m             # \033[07mP\033[27masswords")
     print(
@@ -173,7 +173,7 @@ def print_cow():
 def version():
     """Display version"""
 
-    print("\r\n	\033[1;31m[ cupp.py ]  " + __version__ + "\033[1;m\r\n")
+    print("\r\n	\033[1;31m[ Word.py ]  " + __version__ + "\033[1;m\r\n")
     print("	* Hacked up by j0rgan - j0rgan@remote-exploit.org")
     print("	* http://www.remote-exploit.org\r\n")
     print("	Take a look ./README.md file for more info about the program\r\n")
