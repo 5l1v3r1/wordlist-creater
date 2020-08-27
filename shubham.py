@@ -157,7 +157,7 @@ def print_to_file(filename, unique_list_finished):
 
 def print_cow():
     print(" ___________ ")
-    print(" \033[07m  Word.py! \033[27m                # \033[07mC\033[27mommon")
+    print(" \033[07m  shubham.py! \033[27m                # \033[07mC\033[27mommon")
     print("      \                     # \033[07mU\033[27mser")
     print("       \   \033[1;31m,__,\033[1;m             # \033[07mP\033[27masswords")
     print(
@@ -167,14 +167,14 @@ def print_cow():
     print(
         "           \033[1;31m   ||--|| \033[1;m\033[05m*\033[25m\033[1;m      [ Muris Kurgas | j0rgan@remote-exploit.org ]"
     )
-    print(28 * " " + "[ Mebus | https://github.com/Mebus/]\r\n")
+    print(28 * " " + "[ Mebus | https://github.com/shubhamggosai/]\r\n")
 
 
 def version():
     """Display version"""
 
-    print("\r\n	\033[1;31m[ Word.py ]  " + __version__ + "\033[1;m\r\n")
-    print("	* Hacked up by j0rgan - j0rgan@remote-exploit.org")
+    print("\r\n	\033[1;31m[ shubham.py ]  " + __version__ + "\033[1;m\r\n")
+    print("	* Hacked up by shubham - shubham@remote-exploit.org")
     print("	* http://www.remote-exploit.org\r\n")
     print("	Take a look ./README.md file for more info about the program\r\n")
 
@@ -296,7 +296,7 @@ def improve_dictionary(file_to_open):
         if len(x) > CONFIG["global"]["wcfrom"] and len(x) < CONFIG["global"]["wcto"]
     ]
 
-    print_to_file(file_to_open + ".cupp.txt", unique_list_finished)
+    print_to_file(file_to_open + ".Word.txt", unique_list_finished)
 
     fajl.close()
 
