@@ -7,10 +7,9 @@
 #
 #  [Author]
 #
-#  Muris Kurgas aka j0rgan
+#  my name is shubhamggosai
 #  j0rgan [at] remote-exploit [dot] org
 #  http://www.remote-exploit.org
-#  http://www.azuzi.me
 #
 #  [License]
 #
