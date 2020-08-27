@@ -36,7 +36,7 @@ from WORD import *
 class TestCupp(unittest.TestCase):
     def setUp(self):
 
-        read_config("cupp.cfg")
+        read_config("Word.cfg")
 
     def test_config(self):
 
