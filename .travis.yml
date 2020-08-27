@@ -4,7 +4,7 @@
   install:
     - pip install coverage python-coveralls
   script:
-    - coverage run ./shubham_word.py
+    - coverage run ./Test_word.py
   after_success:
     - coverage report
     - coveralls
